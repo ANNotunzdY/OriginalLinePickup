@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C663C613E2C98F00EF0119 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C663C513E2C98F00EF0119 /* Cocoa.framework */; };
+		00C663D013E2C98F00EF0119 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00C663CE13E2C98F00EF0119 /* InfoPlist.strings */; };
+		00C663D313E2C98F00EF0119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C663D213E2C98F00EF0119 /* main.m */; };
+		00C663D613E2C98F00EF0119 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 00C663D413E2C98F00EF0119 /* Credits.rtf */; };
+		00C663D913E2C98F00EF0119 /* OriginalLinePickupAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C663D813E2C98F00EF0119 /* OriginalLinePickupAppDelegate.m */; };
+		00C663DC13E2C98F00EF0119 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C663DA13E2C98F00EF0119 /* MainMenu.xib */; };
+		00C663E413E2C9B200EF0119 /* A.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00C663E213E2C9B200EF0119 /* A.txt */; };
+		00C663E513E2C9B200EF0119 /* B.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00C663E313E2C9B200EF0119 /* B.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C663C113E2C98F00EF0119 /* OriginalLinePickup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalLinePickup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C663C513E2C98F00EF0119 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		00C663C813E2C98F00EF0119 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		00C663C913E2C98F00EF0119 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		00C663CA13E2C98F00EF0119 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00C663CD13E2C98F00EF0119 /* OriginalLinePickup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OriginalLinePickup-Info.plist"; sourceTree = "<group>"; };
+		00C663CF13E2C98F00EF0119 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00C663D113E2C98F00EF0119 /* OriginalLinePickup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OriginalLinePickup-Prefix.pch"; sourceTree = "<group>"; };
+		00C663D213E2C98F00EF0119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C663D513E2C98F00EF0119 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		00C663D713E2C98F00EF0119 /* OriginalLinePickupAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginalLinePickupAppDelegate.h; sourceTree = "<group>"; };
+		00C663D813E2C98F00EF0119 /* OriginalLinePickupAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalLinePickupAppDelegate.m; sourceTree = "<group>"; };
+		00C663DB13E2C98F00EF0119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		00C663E213E2C9B200EF0119 /* A.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.txt; sourceTree = "<group>"; };
+		00C663E313E2C9B200EF0119 /* B.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C663BE13E2C98F00EF0119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C663C613E2C98F00EF0119 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C663B613E2C98F00EF0119 = {
+			isa = PBXGroup;
+			children = (
+				00C663CB13E2C98F00EF0119 /* OriginalLinePickup */,
+				00C663C413E2C98F00EF0119 /* Frameworks */,
+				00C663C213E2C98F00EF0119 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C663C213E2C98F00EF0119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C663C113E2C98F00EF0119 /* OriginalLinePickup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C663C413E2C98F00EF0119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C663C513E2C98F00EF0119 /* Cocoa.framework */,
+				00C663C713E2C98F00EF0119 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00C663C713E2C98F00EF0119 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C663C813E2C98F00EF0119 /* AppKit.framework */,
+				00C663C913E2C98F00EF0119 /* CoreData.framework */,
+				00C663CA13E2C98F00EF0119 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		00C663CB13E2C98F00EF0119 /* OriginalLinePickup */ = {
+			isa = PBXGroup;
+			children = (
+				00C663D713E2C98F00EF0119 /* OriginalLinePickupAppDelegate.h */,
+				00C663D813E2C98F00EF0119 /* OriginalLinePickupAppDelegate.m */,
+				00C663DA13E2C98F00EF0119 /* MainMenu.xib */,
+				00C663CC13E2C98F00EF0119 /* Supporting Files */,
+			);
+			path = OriginalLinePickup;
+			sourceTree = "<group>";
+		};
+		00C663CC13E2C98F00EF0119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C663E213E2C9B200EF0119 /* A.txt */,
+				00C663E313E2C9B200EF0119 /* B.txt */,
+				00C663CD13E2C98F00EF0119 /* OriginalLinePickup-Info.plist */,
+				00C663CE13E2C98F00EF0119 /* InfoPlist.strings */,
+				00C663D113E2C98F00EF0119 /* OriginalLinePickup-Prefix.pch */,
+				00C663D213E2C98F00EF0119 /* main.m */,
+				00C663D413E2C98F00EF0119 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C663C013E2C98F00EF0119 /* OriginalLinePickup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C663DF13E2C98F00EF0119 /* Build configuration list for PBXNativeTarget "OriginalLinePickup" */;
+			buildPhases = (
+				00C663BD13E2C98F00EF0119 /* Sources */,
+				00C663BE13E2C98F00EF0119 /* Frameworks */,
+				00C663BF13E2C98F00EF0119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OriginalLinePickup;
+			productName = OriginalLinePickup;
+			productReference = 00C663C113E2C98F00EF0119 /* OriginalLinePickup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C663B813E2C98F00EF0119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "株式会社パンカク";
+			};
+			buildConfigurationList = 00C663BB13E2C98F00EF0119 /* Build configuration list for PBXProject "OriginalLinePickup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00C663B613E2C98F00EF0119;
+			productRefGroup = 00C663C213E2C98F00EF0119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C663C013E2C98F00EF0119 /* OriginalLinePickup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C663BF13E2C98F00EF0119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C663D013E2C98F00EF0119 /* InfoPlist.strings in Resources */,
+				00C663D613E2C98F00EF0119 /* Credits.rtf in Resources */,
+				00C663DC13E2C98F00EF0119 /* MainMenu.xib in Resources */,
+				00C663E413E2C9B200EF0119 /* A.txt in Resources */,
+				00C663E513E2C9B200EF0119 /* B.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C663BD13E2C98F00EF0119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C663D313E2C98F00EF0119 /* main.m in Sources */,
+				00C663D913E2C98F00EF0119 /* OriginalLinePickupAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00C663CE13E2C98F00EF0119 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C663CF13E2C98F00EF0119 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00C663D413E2C98F00EF0119 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C663D513E2C98F00EF0119 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		00C663DA13E2C98F00EF0119 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C663DB13E2C98F00EF0119 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C663DD13E2C98F00EF0119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00C663DE13E2C98F00EF0119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		00C663E013E2C98F00EF0119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OriginalLinePickup/OriginalLinePickup-Prefix.pch";
+				INFOPLIST_FILE = "OriginalLinePickup/OriginalLinePickup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00C663E113E2C98F00EF0119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OriginalLinePickup/OriginalLinePickup-Prefix.pch";
+				INFOPLIST_FILE = "OriginalLinePickup/OriginalLinePickup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C663BB13E2C98F00EF0119 /* Build configuration list for PBXProject "OriginalLinePickup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C663DD13E2C98F00EF0119 /* Debug */,
+				00C663DE13E2C98F00EF0119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C663DF13E2C98F00EF0119 /* Build configuration list for PBXNativeTarget "OriginalLinePickup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C663E013E2C98F00EF0119 /* Debug */,
+				00C663E113E2C98F00EF0119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C663B813E2C98F00EF0119 /* Project object */;
+}
